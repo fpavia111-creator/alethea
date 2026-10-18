@@ -1,0 +1,56 @@
+{
+  "name": "@kurtfrancisco/alethea",
+  "version": "0.2.0",
+  "description": "Alethea of Agents (formerly agent-decision-memory): Persistent decision and constraint memory for coding agents: a local stdio MCP server and CLI that store ADR-style decisions as git-friendly markdown, linked to SpecGate requirement ids, tests and commits.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Kurt Francisco <Fpavia111@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "alethea": "bin/adm.js",
+    "alethea-mcp": "bin/adm-mcp.js",
+    "adm": "bin/adm.js",
+    "adm-mcp": "bin/adm-mcp.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/",
+    "start": "node bin/adm-mcp.js",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^3.25.76"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpavia111-creator/alethea.git"
+  },
+  "homepage": "https://github.com/fpavia111-creator/alethea#readme",
+  "bugs": {
+    "url": "https://github.com/fpavia111-creator/alethea/issues"
+  },
+  "mcpName": "io.github.fpavia111-creator/agent-decision-memory",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "claude-code",
+    "cursor",
+    "ai-agents",
+    "alethea",
+    "agent-decision-memory"
+  ]
+}
