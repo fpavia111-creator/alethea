@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "build": "node scripts/build.js",
-    "test": "node --test test/",
+    "test": "node scripts/run-tests.cjs",
     "start": "node bin/adm-mcp.js",
     "demo": "node scripts/demo.js"
   },
@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/fpavia111-creator/alethea/issues"
   },
-  "mcpName": "io.github.fpavia111-creator/agent-decision-memory",
+  "mcpName": "io.github.fpavia111-creator/alethea",
   "keywords": [
     "mcp",
     "mcp-server",
