@@ -20,13 +20,13 @@ npm install -g @kurtfrancisco/alethea   # provides `alethea` and `alethea-mcp` (
 **Claude Code**
 
 ```bash
-claude mcp add decision-memory -- npx -y -p @kurtfrancisco/alethea@0.2.0 alethea-mcp
+claude mcp add decision-memory -- npx -y -p @kurtfrancisco/alethea@0.2.1 alethea-mcp
 ```
 
 **Cursor** — add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (project). The same snippet works for Claude Desktop, VS Code and Windsurf:
 
 ```json
-{ "mcpServers": { "decision-memory": { "command": "npx", "args": ["-y", "-p", "@kurtfrancisco/alethea@0.2.0", "alethea-mcp"] } } }
+{ "mcpServers": { "decision-memory": { "command": "npx", "args": ["-y", "-p", "@kurtfrancisco/alethea@0.2.1", "alethea-mcp"] } } }
 ```
 
 Restart the client and the tools appear. Full details below.

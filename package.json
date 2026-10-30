@@ -1,6 +1,6 @@
 {
   "name": "@kurtfrancisco/alethea",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Alethea of Agents (formerly agent-decision-memory): Persistent decision and constraint memory for coding agents: a local stdio MCP server and CLI that store ADR-style decisions as git-friendly markdown, linked to SpecGate requirement ids, tests and commits.",
   "type": "module",
   "license": "MIT",
